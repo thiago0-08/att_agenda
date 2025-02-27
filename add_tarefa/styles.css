@@ -1,0 +1,15 @@
+.header-container {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.container {
+    max-width: 500px;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
