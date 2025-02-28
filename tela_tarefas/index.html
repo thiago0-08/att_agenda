@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body class="bg-light d-flex flex-column align-items-center justify-content-center vh-100">
+    <div class="header-container">
+        <a href="../tela_inicial/index.html">
+            <button class="btn btn-dark">Voltar</button>
+        </a>
+    </div>
+
+
+    <input type="text" id="search" placeholder="Buscar tarefa...">
+<select id="filterCategory">
+  <option value="all">Todas</option>
+  <option value="trabalho">Trabalho</option>
+  <option value="estudo">Estudo</option>
+</select>
+
+<ul id="taskList">
+  <li class="task" data-category="trabalho">Finalizar relatório</li>
+  <li class="task" data-category="estudo">Estudar JavaScript</li>
+</ul>
+ <script src="script.js"></script>
+</body>
+</html>
