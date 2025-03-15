@@ -4,9 +4,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
-.login-container {
+.card {
     background: #fff;
     padding: 2rem;
     border-radius: 10px;
@@ -15,7 +16,7 @@ body {
     width: 100%;
 }
 
-.login-container h2 {
+.card-title {
     text-align: center;
     margin-bottom: 1.5rem;
     color: #333;
@@ -23,12 +24,15 @@ body {
 
 .form-control {
     border-radius: 5px;
+    margin-bottom: 1rem;
 }
 
 .btn-primary {
     width: 100%;
     background: #0230ff;
     border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
 }
 
 .btn-primary:hover {
