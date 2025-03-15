@@ -4,7 +4,7 @@ Um sistema de agenda e gerenciamento de tarefas simples e eficiente.
 
 ## 📌 Sobre o Projeto
 
-O `att_agenda` é um aplicativo web que permite aos usuários adicionarem tarefas, visualizar um calendário, configurar lembretes e acessar uma interface de login. O objetivo é facilitar a organização e o gerenciamento do tempo.
+O `att_agenda` é um aplicativo mobile que permite aos usuários adicionarem tarefas, visualizar um calendário, configurar lembretes e acessar uma interface de login. O objetivo é facilitar a organização e o gerenciamento do tempo.
 
 ## 🚀 Tecnologias Utilizadas
 
