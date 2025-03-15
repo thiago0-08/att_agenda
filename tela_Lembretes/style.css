@@ -1,15 +1,36 @@
-.header-container {
-    position: absolute;
-    top: 15px;
-    left: 20px;
+body {
+    background: #f4f4f9;
+    font-family: Arial, sans-serif;
 }
-
 .container {
-    max-width: 500px;
+    max-width: 900px;
+    margin-top: 50px;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.btn-primary {
+    background: #667eea;
+    border: none;
+}
+.btn-primary:hover {
+    background: #5a67d8;
+}
+.task-list, .reminder-list {
+    max-height: 300px;
+    overflow-y: auto;
 }
 
-.alert {
-    display: flex;
-    align-items: center;
-    padding: 15px;
+.button{
+    background-color: #667eea;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
